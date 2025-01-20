@@ -66,6 +66,14 @@ We welcome contributions from developers of all levels. If you'd like to contrib
 
 [![Star History Chart](https://api.star-history.com/svg?repos=langflow-ai/langflow&type=Timeline)](https://star-history.com/#langflow-ai/langflow&Date)
 
-## ❤️ Contributors
+## Local setup
+```shell
+conda create --name langflow110  python=3.10
+```
+```shell
+conda activate langflow110
+```
+```shell
+pip install langflow==1.1.0 --default-timeout=1000 --use-deprecated=legacy-resolver --no-build-isolation
+```
 
-[![langflow contributors](https://contrib.rocks/image?repo=langflow-ai/langflow)](https://github.com/langflow-ai/langflow/graphs/contributors)
