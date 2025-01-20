@@ -76,4 +76,5 @@ conda activate langflow110
 ```shell
 pip install langflow==1.1.0 --default-timeout=1000 --use-deprecated=legacy-resolver --no-build-isolation
 ```
+Fix - https://github.com/langflow-ai/langflow/issues/5747 before running from source code
 
