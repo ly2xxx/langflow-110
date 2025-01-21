@@ -84,11 +84,15 @@
       // "python": "C:/Soft/anaconda3/envs/langflow111/python",
       "purpose": ["debug-langflow"],
       "console": "integratedTerminal",
+      "justMyCode": false,
       "args": [
         "run",
         "--port",
         "7878"
-      ]
+      ],
+      "env": {
+        "DO_NOT_TRACK": "true"
+      }
     }
 
   ]
