@@ -80,5 +80,5 @@ Fix - https://github.com/langflow-ai/langflow/issues/5747 before running from so
 
 Fix - https://github.com/langflow-ai/langflow/issues/3836
 File stored under: C:\Users\{userid}\AppData\Local\langflow\langflow\Cache\{flowid}
-Replace [text](../../Users/{user}/.conda/envs/langflow110/Lib/site-packages/langflow/schema/image.py)
+Replace ../../Users/{user}/.conda/envs/langflow110/Lib/site-packages/langflow/schema/image.py
 
