@@ -78,3 +78,6 @@ pip install langflow==1.1.0 --default-timeout=1000 --use-deprecated=legacy-resol
 ```
 Fix - https://github.com/langflow-ai/langflow/issues/5747 before running from source code
 
+Fix - https://github.com/langflow-ai/langflow/issues/3836
+File stored under: C:\Users\{userid}\AppData\Local\langflow\langflow\Cache\{flowid}
+
