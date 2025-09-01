@@ -52,7 +52,7 @@ jobs:
       failed: ${{ steps.check-failure.outputs.failed }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # If ref is passed as input, checkout that ref
           # else checkout the default ref
@@ -155,7 +155,7 @@ jobs:
           fi
       - name: Checkout code
         if: ${{ steps.should_merge_reports.outputs.should_merge_reports == 'true' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
 
